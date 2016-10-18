@@ -1,0 +1,2 @@
+# CPU_time_to_pie_chart
+Takes a CSV containing lines indicating processes in the format(username, process ID, self_cpu_time, total_cpu_time) and graphs this info into a pie chart. The pie chart indicates users split into colors and those colors split into sections where each section is a process owned by the user. This was necessary to show implementation of a fairshare CPU time algorithm correctly split cpu_time between all users/processes.
